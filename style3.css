@@ -1,0 +1,48 @@
+/* Reset dasar untuk menghapus margin dan padding */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Gaya umum untuk body */
+body {
+    font-family: 'Arial', sans-serif; /* Mengatur font */
+    background-color: #f4f4f4; /* Warna latar belakang */
+    color: #333; /* Warna teks */
+    display: flex; /* Menggunakan Flexbox untuk penyusunan */
+    justify-content: center; /* Memusatkan secara horizontal */
+    align-items: center; /* Memusatkan secara vertikal */
+    height: 100vh; /* Tinggi viewport penuh untuk memusatkan konten */
+}
+
+/* Gaya untuk kontainer */
+.container {
+    background-color: #fff; /* Warna latar belakang kontainer */
+    padding: 20px; /* Padding di dalam kontainer */
+    border-radius: 8px; /* Sudut melengkung */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Bayangan untuk kedalaman */
+    text-align: center; /* Menyelaraskan teks di tengah */
+}
+
+/* Gaya untuk judul */
+h1 {
+    color: #2c3e50; /* Warna teks untuk judul */
+    margin-bottom: 15px; /* Jarak bawah judul */
+}
+
+/* Gaya untuk paragraf */
+p {
+    font-size: 1.2em; /* Ukuran font untuk paragraf */
+    color: #666; /* Warna teks untuk paragraf */
+}
+
+/* Gaya untuk tautan */
+a {
+    color: #3498db; /* Warna tautan */
+    text-decoration: none; /* Menghilangkan garis bawah pada tautan */
+}
+
+a:hover {
+    text-decoration: underline; /* Menambahkan garis bawah saat hover */
+}
