@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎉 Selamat Datang di Media Online! 🎉</title>
+    <!-- Link Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #ff7b7b, #f8a6a6, #f0c8e0); /* Warna cerah yang girly */
+            animation: gradientMove 5s infinite;
+            color: #333;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+        }
+
+        @keyframes gradientMove {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .welcome-container {
+            background: #fff;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            animation: heartBeat 1.5s infinite;
+            transform-origin: center;
+        }
+
+        @keyframes heartBeat {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+
+        .emoji {
+            font-size: 3rem;
+            animation: blink 1.5s ease-in-out infinite;
+            margin: 0 10px;
+        }
+
+        @keyframes blink {
+            0% { opacity: 1; }
+            50% { opacity: 0.5; }
+            100% { opacity: 1; }
+        }
+
+        .btn-primary {
+            background-color: #ff6f61;
+            border: none;
+            font-weight: bold;
+            padding: 10px 30px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+        }
+
+        .btn-primary:hover {
+            background-color: #ff4c4c;
+            transform: scale(1.1) rotate(5deg);
+        }
+
+        h1 {
+            color: #ff3385;
+        }
+
+        p {
+            font-size: 1.2rem;
+            color: #7c4dff;
+        }
+
+        .unicorn {
+            font-size: 4rem;
+            animation: rotateUnicorn 2s linear infinite;
+        }
+
+        @keyframes rotateUnicorn {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container d-flex flex-column justify-content-center align-items-center vh-100">
+        <!-- Konten Selamat Datang -->
+        <div class="welcome-container">
+            <h1>🎉 Horee! Selamat Datang di Media Online! 🎉</h1>
+            <p>Yay! Terima kasih telah mendaftar. Kami akan segera menghubungi Anda melalui email! 📧</p>
+            
+            <div>
+                <span class="emoji">🦄</span>
+                <span class="emoji">🌟</span>
+                <span class="emoji">💖</span>
+                <span class="emoji">🎉</span>
+            </div>
+            
+            <!-- Tombol Kembali ke Beranda -->
+            <a href="index baru.html" class="btn btn-primary mt-4">🏠 Kembali ke Beranda</a>
+        </div>
+
+        <!-- Animasi Unicorn Lucu -->
+        <div class="unicorn mt-5">
+            🦄
+        </div>
+    </div>
+
+    <!-- Link Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
