@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Super Lucu & Ceria!</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background-color: #ffccff;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            overflow-x: hidden;
+        }
+        h1 {
+            background: linear-gradient(45deg, #ff69b4, #ffccff);
+            color: white;
+            font-size: 3.5em;
+            padding: 20px;
+            margin: 0;
+            text-shadow: 5px 5px 10px rgba(255, 182, 193, 0.7);
+            position: relative;
+        }
+        h3::after {
+            content: '✨🌈';
+            font-size: 2em;
+            position: absolute;
+            top: 2px;
+            left: 2px;
+        }
+        .container {
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 800px;
+            background-color: #fff8f7;
+            border-radius: 25px;
+            box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+            border: 5px solid #ff69b4;
+            position: relative;
+        }
+        .container:before {
+            content: '💖';
+            position: absolute;
+            top: -30px;
+            left: 20px;
+            font-size: 3em;
+            animation: bounce 1.5s infinite;
+        }
+        .container:after {
+            content: '✨';
+            position: absolute;
+            top: -30px;
+            right: 20px;
+            font-size: 3em;
+            animation: spin 3s infinite linear;
+        }
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        h2 {
+            font-size: 2.5em;
+            color: #ff69b4;
+            text-shadow: 2px 2px 5px rgba(255, 182, 193, 0.6);
+            margin: 15px 0;
+        }
+        p {
+            font-size: 1.3em;
+            margin: 10px 0;
+            color: #333;
+        }
+        img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 5px solid #ff69b4;
+            box-shadow: 0 4px 15px rgba(255, 182, 193, 0.7);
+            margin: 20px;
+            animation: bounce 2s infinite;
+        }
+        audio, video {
+            margin-top: 20px;
+            border: 3px solid #ff69b4;
+            border-radius: 10px;
+            width: 70%;
+        }
+        footer {
+            background: #ff69b4;
+            color: white;
+            padding: 10px;
+            font-size: 1.3em;
+            margin-top: 30px;
+            text-shadow: 2px 2px 5px rgba(255, 182, 193, 0.7);
+        }
+        .emoji-float {
+            font-size: 2em;
+            animation: float 2s infinite ease-in-out;
+            margin-top: 30px;
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+    </style>
+</head>
+<body>
+    <h1>🎉 Biodata Lucu Karmila! 🎈</h1>
+
+    <div class="container">
+        <p><strong>Nama:</strong> Karmila Sari 😄</p>
+        <p><strong>Kelas:</strong> XI RPL 1 🏫</p>
+        <p><strong>Tanggal Lahir:</strong> 6 April 2008 🎂</p>
+        <p><strong>Usia:</strong> 16 tahun 🎉</p>
+        <p><strong>Alamat:</strong> Desa Purwamekar, Kec Rawamerta 🏡</p>
+        <p><strong>Email:</strong> wannurwan188@gmail.com 📧</p>
+        <p><strong>Telepon:</strong> 0895320309970 📱</p>
+
+        <h2>Foto Keren</h2>
+        <img src="fhoto.jpg" alt="Foto saya">
+
+        <h2>Pesan Suara 🎶</h2>
+        <audio controls>
+            <source src="audio.mp3" type="audio/mpeg">
+        </audio>
+        
+        <h2>Video Lucu 📹</h2>
+        <video controls>
+            <source src="vidio.mp4" type="video/mp4">
+        </video>
+
+        <div class="emoji-float"> 
+            🦄🌈💫🎉
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2024 Karmila Sari | Selalu Ceria dan Lucu! 🌟
+    </footer>
+</body>
+</html>
